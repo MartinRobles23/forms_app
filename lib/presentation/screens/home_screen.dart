@@ -11,12 +11,20 @@ class HomeScreen extends StatelessWidget {
         children: [
           ListTile(
             title: const Text('Cubits'),
-            subtitle: const Text('Gestor de estdo simple'),
+            subtitle: const Text('Gestor de estado simple'),
             trailing: const Icon(Icons.arrow_back_ios_rounded),
             onTap: () {
               context.push('/cubits');
             },
-          )
+          ),
+          ListTile(
+            title: const Text('Bloc'),
+            subtitle: const Text('Gestor de estado compuesto'),
+            trailing: const Icon(Icons.arrow_back_ios_rounded),
+            onTap: () {
+              context.push('/cubits');
+            },
+          ),
         ],
       ),
     );
