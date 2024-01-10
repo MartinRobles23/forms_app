@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
           ListTile(
             title: const Text('Cubits'),
             subtitle: const Text('Gestor de estado simple'),
-            trailing: const Icon(Icons.arrow_back_ios_rounded),
+            trailing: const Icon(Icons.arrow_forward_ios_outlined),
             onTap: () {
               context.push('/cubits');
             },
@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
           ListTile(
             title: const Text('Bloc'),
             subtitle: const Text('Gestor de estado compuesto'),
-            trailing: const Icon(Icons.arrow_back_ios_rounded),
+            trailing: const Icon(Icons.arrow_forward_ios_outlined),
             onTap: () {
               context.push('/counter-bloc');
             },
